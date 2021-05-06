@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head of the music.html page -->
+    <head>
+
+        <!-- <meta name  = "viewport" content = "width=device-width,initial-scale=1"> -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel = " stylesheet" type ="text/css" href ="music1.css">
+       <link rel = " stylesheet"href =" https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    
+        <!-- Bootstrap CSS -->
+       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+        
+        <!-- APlayer CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+
+
+        <title>SHIVANGI TIWARI</title>
+
+         <style>
+            #aplayer{
+                position: fixed;
+                bottom: -100%;
+                left: 0;
+                width: 100%;
+                margin: 0;
+                /* box-shadow: 0 -2px 2px #dadada;
+                background-color: #fff; */
+                transition: all ease 0.5s;
+            }
+            #aplayer.showPlayer{
+                bottom: 0;
+            }
+    
+            
+            /*MUSIC PLAYER CUSTOMIZING STYLE*/
+           
+    
+        </style> 
+
+    
+    </head>
+<!-- here starts the body  -->
+    <body>
+
+      <!-- here starts the header -->
+        
+      <div class="header">
+
+          <!-- here starts the left hand side of the header  -->
+        <div class ="left-side">
+
+              <!-- dropdown menu at the time of responsiveness -->
+
+
+
+          <div class="dropdown" style="float:left;">
+                <button class="dropbtn">
+                <button class="dropbtn">
+                <div class="box-white"></div>
+                <div class="box-white"></div>
+                <div class="box-white"></div>
+                </button>
+                </button>
+              <div class="dropdown-content" style="left:0;">
+
+                
+              <a href="#">Favourites</a>
+              <a href="#">Notifications</a>
+              <a href="#">User</a>
+            </div>
+          </div>
+
+        <!-- other features of left side of header including icon of music player , favourites  -->
+                <div class="logo">
+                    <img src="icon.png" height="70px" width="70px">
+                </div>
+                <div class="ninjas">
+                    <p style = "font-size:20px;  margin-left:0%">&nbsp;&nbsp;Favourite Playlist</p>
+                    <p style ="font-size:25px;  margin-top:-12%; margin-left:0%" > &nbsp;&nbsp;Feel the music </p>
+                </div>
+                <div class="favourites">
+                    <h1> Favourites </h1>
+                </div>
+
+        </div>
+
+            <!-- right side  of header -->
+
+            <!-- right side of header including profile picture .search button , notifications option -->
+
+
+
+            <div class = "right-side"  style="width:100%;">
+                <!-- <div class="nav-search-bar-container">
+                    <div class="nav-search-bar">
+                        <a class="search-btn" href="">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </a> -->
+                        <!-- <input class="search-txt"type="text" name="search-bar" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search">
+                        <a class="search-mic" href="">
+                            <i class="fa fa-microphone" aria-hidden="true"></i>
+                        </a> -->
+                    <!-- </div>
+                </div> -->
+                <div class="notification">
+                        <i class="fas fa-bell"></i>
+                </div>
+
+            
+                <div class="image">
+                    <img src="profile.png" height="70px" width="70px">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- starting here with the main and aside section -->
+                
+        <div class="body">  
+
+        <!-- starting with main section which contains all the required sections   -->
+
+
+        <main>
+
+      <!-- the photos carausal section -->
+
+        <div class = "photo-top">
+            <div ><img src ="Genda_Phool.jpg"  height="251px"  width="250px" ></div>
+            <div class><img src = "image2.jpg"   height="251px"  width="250px"></div>
+            <div><img src = "booty.jpg"   height="251px"  width="250px"></div>
+        </div>
+
+
+        <!-- latest releases section -->
+
+              <p class = "heading-latest">Latest Releases --- [Click on the play button inside the image to play the recents]</p>
+              <div class = "latest-releases">
+
+
+            <div class ="block1">
+                <div class="test">
+                    <div class = "din"><img src="din_sagna.jpg" height ="100px"    width="100px" class="test-img center"></div>
+                    <div class = "centy center" ><a href="javascript:void();" class="album-poster" data-switch="0"><i class="fas fa-play sym"></i></a></div>
+                </div>
+                <div class ="name" style = "font-size:20px;">
+                    <p>Din sagna</p>
+                    <p class ="date"  style = "font-size:15px;">24th Aug 2020</p>
+                </div>
+                <div class ="duration">
+                 <ul>
+                     <li class ="three-dot"><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul class ="extension">
+                            <li><i class="fas fa-plus sym"></i>&nbsp;<a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i>&nbsp;<a href="#">Add to Favourites</a></li>
+          
+                           </ul> 
+                         </div>
+                       </li>
+                    </ul>
+                    <h6 class="time">4:21</h6>
+                </div>
+            </div>
+            <div class ="block1">
+                <div class="test">
+                    <div class = "din"><img src="ese_kyu.jpg" height ="100px"    width="100px" class="test-img center"></div>
+                    <div class = "centy center" ><a href="#" class="album-poster" data-switch="1"><i class="fas fa-play sym"></i></a></div>
+                </div>
+                <div class ="name" style = "font-size:20px;">
+                    <p>Ese Kyu</p>
+                    <p class ="date"  style = "font-size:15px;">24th Nov 2020</p>
+                </div>
+                <div class ="duration">
+                 <ul>
+                     <li class ="three-dot"><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul class ="extension">
+                            <li><i class="fas fa-plus sym"></i>&nbsp;<a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i>&nbsp;<a href="#">Add to Favourites</a></li>
+                  
+                           </ul> 
+                         </div>
+                       </li>
+                    </ul>
+                    <h6 class="time">5:21</h6>
+                </div>
+            </div>
+            <div class ="block1">
+                <div class="test">
+                    <div class = "din"><img src="hamrah.jpg" height ="100px"    width="100px" class="test-img center"></div>
+                    <div class = "centy center" ><a href="#" class="album-poster" data-switch="2"><i class="fas fa-play sym"></i></a></div>
+                </div>
+                <div class ="name" style = "font-size:20px;">
+                    <p>Humrah</p>
+                    <p class ="date"  style = "font-size:15px;">30th Dec 2020</p>
+                </div>
+                <div class ="duration">
+                 <ul>
+                     <li class ="three-dot"><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul class ="extension">
+                            <li><i class="fas fa-plus sym"></i>&nbsp;<a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i>&nbsp;<a href="#">Add to Favourites</a></li>
+                            
+                           </ul> 
+                         </div>
+                       </li>
+                    </ul>
+                    <h6 class="time">2:21</h6>
+                </div>
+            </div>
+            <div class ="block1">
+                <div class="test">
+                    <div class = "din"><img src="galat_fehmi.jpg" height ="100px"    width="100px" class="test-img center"></div>
+                    <div class = "centy center" ><a href="#" class="album-poster" data-switch="3"><i class="fas fa-play sym"></i></a></div>
+                </div>
+                <div class ="name" style = "font-size:20px;">
+                    <p>Galat Fehmi</p>
+                    <p class ="date"  style = "font-size:15px;">21th Jan 2021</p>
+                </div>
+                <div class ="duration">
+                 <ul>
+                     <li class ="three-dot"><a href="#"><i class="fa fa-ellipsis-h"  aria-hidden="true"></i></a>
+                           <div class="sub-menu-1">
+                          <!-- Unordered list of menu1 -->
+                            <ul class ="extension">
+                            <li><i class="fas fa-plus sym"></i>&nbsp;<a href="#">Add to Queue</a></li>
+                            <li><i class="fas fa-list sym"></i>&nbsp;<a href="#">Add to Favourites</a></li>
+                            
+                           </ul> 
+                         </div>
+                       </li>
+                    </ul>
+                    <h6 class="time">1:21</h6>
+                </div>
+            </div>
+            </div>
+
+
+            <!-- popular artists section -->
+
+    
+<p class = "heading-latest">Popular Artists --- [Click on the images to know your favourite artists and there songs]</p>
+        <div class = "popular-artists">
+            
+            <div class = "shreya">
+                   <div class = "art" class = "art2"><a href = "./music_page3.html"><img src ="shreya.jpg"  width="100px" height="100px"></a></div>
+                   <div class = "art-p"><p class = "artist">Shreya</p></div>
+            </div>
+            <div class = "shreya" >
+                <div class = "art" class = "art2"><a href = "./music_page4.html"><img src ="shankar.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Shankar</p></div>
+            </div>
+            <div class = "shreya">
+                <div class = "art"  class = "art2"><a href = "./music_page2.html"><img src ="arijit1.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Arijit</p></div>
+            </div>
+            <div class = "shreya" id = "ed">
+                <div class = "art" class = "art2"><a href = "./music_page5.html"><img src ="rehman.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Rehman</p></div>
+            </div>
+             <div  class = "shreya">
+                <div class = "art" class = "art2"><a href = "./music_page6.html"><img src ="gomez.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Sheeran</p></div>
+            </div>
+            <div  class = "shreya">
+                <div  class = "art" class ="art2"><a href = "./music_page7.html"><img src ="selena.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Selena</p></div>
+            </div>
+           
+            <div  class = "shreya">
+                <div class = "art" class = "art2"><a href = "./music_page8.html"><img src ="hannah1.jpg"  width="100px" height="100px"></a></div>
+                <div class = "art-p"><p  class = "artist">Hannah</p></div>
+            </div>
+            
+           
+
+        </div>
+        <br>
+        <br>
+
+
+        <!-- stations section -->
+
+            <p class = "heading-latest">Stations --- [Type of music you can enjoy here] </p>
+            <div class ="station-block">
+                <div class = "ganna"><img src ="station.jpg"  width="120px" height="120px"></div>
+                    <div  class="love">
+                        <div class = "love2"><img src ="love.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Love</div>
+                    </div>
+                    <div class = "love">
+                        <div class = "love2"><img src ="pop.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Pop</div>
+                    </div>
+                    <div class = "love">
+                        <div class = "love2"><img src ="workout.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Gym</div>
+                    </div>
+                    <div class ="love" >
+                        <div class = "love2"><img src ="chill.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Chill</div>
+                    </div>
+                    <div class = "love">
+                        <div class = "love2"><img src ="retro.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Retro</div>
+                    </div>
+                    <div class ="love"  id="ar">
+                        <div class = "love2"><img src ="rock.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Rock</div>
+                    </div>
+                    <div class = "love" id = "ar">
+                        <div class= "love2"><img src ="dosti.jpg"  width="90px" height="90px"></div>
+                        <div class ="center">Dosti</div>
+                    </div>
+        </div>
+            
+
+<br>
+<br> 
+              
+              <!-- genere section -->
+
+
+       
+     <section class = "genere">
+             <div class = "genere-div">   
+        <div class = "genere1">
+            <div class = "gen"><img src ="party.jpg"  width="245px" height="220px"></div>
+            <div class = "center-piece">Party</div>
+        </div>
+        <div class ="genere1" > 
+            <div class = "gen"><img src ="electronics.jpg"  width="245px" height="220px"></div>
+             <div class = "center-piece">Electronics</div>
+        </div>
+        <div class = "genere1"> 
+            <div class = "gen"><img src ="trip.jpg"  width="245px" height="220px"></div>
+            <div class = "center-piece">Trip</div>
+        </div>
+     </div>
+</section>
+
+        <br>
+        <br>
+        <br>
+
+
+        <!-- english songs section -->
+
+
+<p class ="heading-latest">English Songs --- [Click on the image to play the popular english songss]</p>
+        <div class = "english_songs">
+            <div class ="english-div">
+               <div class = "holly1"> 
+                    <div class = "hollywood"><a href="#" class="album-poster" data-switch="4"><img src ="english1.jpg"  width="150px" height="150px"></a></div>
+                    <div class = "december"> <p class ="song">Solo Dance</p><p class ="song1">25th dec</p></div>
+               </div>
+            
+               <div class = "holly1"> 
+                    <div class = "hollywood"><a href="#" class="album-poster" data-switch="5"><img src ="english2.jpg"  width="150px" height="150px"></a></div>
+                   <div class = "december"><p class ="song">Undead</p><p class ="song1">22th dec</p></div>
+               </div>
+               <div class = "holly1">
+                    <div class = "hollywood"><a href="#" class="album-poster" data-switch="6"><img src ="english3.jpg"  width="150px" height="150px"></a></div>
+                    <div class = "december"><p  class ="song">Despasito</p><p  class ="song1">23th Dec</p></div>
+               </div>
+
+               <div class = holly1> 
+                    <div class = "hollywood"><a href="#" class="album-poster" data-switch="7"><img src ="english4.jpg"  width="150px" height="150px"></a></div>
+                    <div class = "december"><p class ="song">Rain</p><p class ="song1">24th dec</p></div>
+                </div>
+               <div class = "holly1"> 
+                    <div class = "hollywood"><a href="#" class="album-poster" data-switch="8"><img src ="english5.jpg"  width="150px" height="150px"></a></div>
+                    <div class = "december"><p class ="song">D.J Hollywood</p><p class ="song1">25th Dec</p></div>
+               </div>
+            </div>
+       </div>
+
+        <br>
+        <br>
+        <br>
+
+
+        <!-- hindi songs section -->
+
+
+
+<p class ="heading-latest">Hindi Songs --- [Click on the image to play the popular hindi songs</p>
+        <div class = "hindi_songs">
+            <div class ="hindi-div">
+            <div class = "bolly1">
+                 <div class ="bollywood"><a href="#" class="album-poster" data-switch="9"><img src ="hindi1.jpg"  width="150px" height="150px"></a></div>
+                 <div class = "nov"><p>Jab koi bat</p><p class = "song1">22th nov</p></div>
+            </div>
+            <div class = "bolly1">
+                 <div class ="bollywood"><a href="#" class="album-poster" data-switch="10"><img src ="hindi2.jpg"  width="150px" height="150px"></a></div>
+                 <div class="nov"><p>Dil bechara</p><p class = "song1">23th nov</p></div>
+            </div>
+            <div class = "bolly1">
+                 <div class = "bollywood"><a href="#" class="album-poster" data-switch="11"><img src ="hindi3.jpg"  width="150px" height="150px"></a></div>
+                 <div class = "nov"><p>Slow motion</p><p class = "song1">24th nov</p></div>
+            </div>
+            <div class = "bolly1">
+                 <div class = "bollywood"><a href="#" class="album-poster" data-switch="12"><img src ="hindi4.jpg"  width="150px" height="150px"></a></div>
+                 <div class = "nov"><p>O Saathi</p><p class = "song1">25th nov</p></div>
+            </div>
+            <div class = "bolly1">
+                 <div  class = "bollywood" ><a href="#" class="album-poster" data-switch="13"><img src ="hindi5.jpg"  width="150px" height="150px"></a></div>
+                 <div class = "nov"><p>Mera sudhar</p><p class = "song1">26th nov</p></div>
+            </div>
+            </div>
+        </div>
+
+        <!-- end of main -->
+
+
+    </main>
+
+    <!-- starting of aside section -->
+
+    <aside>
+
+      <!-- queue section -->
+
+    <div class= "second-page-aside1"><p class = "artist1">Queue</p><p class ="view">Queue<i class="fas fa-caret-down"></i></p></div>
+        
+    <div class ="side-block"><img src ="side.jpg" height ="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+            <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+             <div class ="side-block"><img src ="side.jpg" height ="70px"    width="70px">
+                <div class ="name-side"><p>Din sagna</p>
+                <p class ="date-side">24th august</p>
+                </div>
+                <span><i class="far fa-heart"></i></span>
+                   
+            </div>
+    </div>
+</aside>
+
+</div>
+
+
+ <!-- footer section-->
+        <!-- <footer>
+           <div id="ta-player">
+            <div class="ta-player-container">
+                <section class="ta-player-info">
+                    <div class="ta-artwork">
+                    </div>
+                     Name of the Song -->
+                    <!-- <div class="ta-meta">
+                        <a href="" class="title"><b>Pyaar Karona</b></a><br>
+                        <a href="" class="username">Salman Khan</a>
+                    </div>
+                </section> -->
+                <!-- Playbar -->
+                <!-- <section class="ta-player-progress">
+                    <span class="ta-time-currnt">0:00</span>
+                    <div class="ta-player-progress-wrapper">
+                        <input type="range" min="1" max="100" value="40" id="default">
+                    </div>
+                    <span class="ta-time-duration">4:10</span> 
+                </section>
+               -->
+              <!-- Tools -->
+                <!-- <section class="ta-player-controls">
+                     <button class="ta-prev"><i class="fas fa-step-backward"></i></button>
+                    <button class="ta-play"><i class="fas fa-play"></i></button>
+                     <button class="ta-next"><i class="fas fa-step-forward"></i></button>
+                     <div>
+                         <button class="ta-shuffle"><i class="fas fa-random"></i></button>
+                         <button class="ta-redo"><i class="fas fa-redo"></i></button>
+                     </div>
+                     <div>
+                         <button class="ta-sound"><i class="fas fa-volume-up"></i></button>
+                         <button class="ta-favourite"><i class="fas fa-heart"></i></button>              
+                         </div>
+                     </div>
+                </section>
+            </div>
+       </div>
+        </footer> --> 
+        <!-- end of footer section -->
+
+
+       
+
+
+
+        </section>
+
+
+        <div id="aplayer"></div>
+
+	<!-- Jquery Link -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	
+	<!-- APlayer Jquery link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>	
+
+    
+
+
+
+	<script>
+
+
+		// NOW I CLICK album-poster TO GET CURRENT SONG ID
+		$(".album-poster").on('click', function(e){
+			var dataSwitchId = $(this).attr('data-switch');
+			//console.log(dataSwitchId);
+
+			// and now i use aplayer switch function see
+			ap.list.switch(dataSwitchId); //this is static id but i use dynamic 
+
+			// aplayer play function
+			// when i click any song to play
+            console.log(ap.play());
+			//ap.play();
+
+			// click to slideUp player see
+			$("#aplayer").addClass('showPlayer');
+		});
+
+		const ap = new APlayer({
+		    container: document.getElementById('aplayer'),
+		    listFolded: true,
+		    audio: [
+		    {
+		        name: 'Dil Sagna',
+		        artist: '',
+		        url: 'Dil De Diya.mp3',
+		        cover: 'din_sagna.jpg'
+		     },
+			{
+		        name: 'Ese Kyu',  // SONG NAME
+		        artist: '', //ARTIST NAME
+		        url: 'Aise Kyun - Anurag Saikia (Mismatched)-(Fun2Desi.Com).mp3', // PATH NAME AND SONG URL
+		        cover: 'ese_kyu.jpg' // COVER IMAGE
+		    },
+			{
+				name: 'Humrah',
+				artist: '',
+				url: 'Humraah - Malang.mp3',
+				cover: 'hamrah.jpg'
+			},
+			{
+				name: 'Galat Fehmi',
+				artist: '',
+				url: 'Ghalat Fehmi_320(PaglaSongs).mp3',
+				cover: 'galat_fehmi.jpg'
+			},
+            {
+				name: 'Solo Song',
+				artist: '',
+				url: 'solo.mp3',
+				cover: 'english1.jpg'
+			},
+            {
+				name: 'Undead',
+				artist: '',
+				url: 'Memories Mp3 By and Maroon 5.mp3',
+				cover: 'english2.jpg'
+			},
+            {
+				name: 'Despasito',
+				artist: '',
+				url: 'Despacito Justin Bieber Mp3Land.Co.mp3',
+				cover: 'english3.jpg'
+			},
+            {
+				name: 'Rain',
+				artist: '',
+				url: 'Rain On Me-Lady Gaga-VlcMusic.CoM.mp3',
+				cover: 'english4.jpg'
+			},
+            {
+				name: 'D.J Bollywood',
+				artist: '',
+				url: 'Fairy Tail(PaglaSongs).mp3',
+				cover: 'english5.jpg'
+			},
+            {
+				name: 'Jab Koi Bat',
+				artist: '',
+				url: 'Jab Koi Baat DJ Chetas - (amlijatt.in).mp3',
+				cover: 'hindi1.jpg'
+			},
+            {
+				name: 'Dil Bechara',
+				artist: '',
+				url: 'Friendzone(PaglaSongs).mp3',
+				cover: 'hindi2.jpg'
+			},
+            {
+				name: 'Slow Motion',
+				artist: '',
+				url: 'Slow Motion - Bharat 128 Kbps.mp3',
+				cover: 'hindi3.jpg'
+			},
+            {
+				name: 'O Saathi',
+				artist: '',
+				url: 'O Saathi (Baaghi 2) 128 Kbps.mp3',
+				cover: 'hindi4.jpg'
+			},
+            {
+				name: 'Mera Sudhar',
+				artist: '',
+				url: 'Mera Sundar Sapna Beet Gaya 160kbps - Songspkred.co.mp3',
+				cover: 'hindi5.jpg'
+			},
+
+
+		    ]
+		});
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+   </html>

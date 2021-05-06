@@ -1,0 +1,978 @@
+/*THIS FILE CONTAINS CSS PROPERTIES FOR MUSIC_PAGE2.CSS*/
+
+
+/*BODY*/
+
+body{
+	background-color:#03254c;
+	margin:0px 50px 50px 50px;
+}
+
+/*DIV FOR MAIN SECTION AND ASIDE SECTION*/
+
+.tit{
+	display:flex;
+	}
+
+/*MAIN SECTION */
+
+main{
+	margin-top:10%;
+	width:70%;
+	height:2000px
+		
+}
+
+/*HEADER*/
+
+.header{
+	
+	display:flex;
+	justify-content: space-between;
+	color:white;
+	margin-top:1%;	
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 
+}
+
+/*HEADER LEFT-SIDE*/
+
+.header .left-side{
+	display:flex;
+    justify-content: space-evenly;
+    width:max-content;
+}
+
+.logo{
+	position:relative;
+	margin-left:-2%;
+	margin-top:2%;
+
+}
+.ninjas{
+	position:relative;
+	margin-left:-4%;
+	margin-top:-2%;
+	width: 200px;
+
+}
+
+.favourites{
+	position:relative;
+	margin-left:10%;
+	margin-top: 0%;
+	font-size:13px;
+
+}
+
+/*HEADER RIGHT SIDE*/
+
+.header .right-side{
+	display:flex;
+	justify-content:flex-end;
+	/*margin-left:530px;*/
+	flex-wrap: wrap;
+    
+    width:70% !important;
+}
+
+/*SEARCH BAR*/
+
+.search-bar  .search-txt{
+	position:relative;
+	margin-left:0;
+	margin-top:30px;
+	border-radius:20px;
+	font-size:20px;
+	z-index:1;
+
+
+}
+
+
+.search-bar a i {
+	position:relative;
+	margin-left:-15px;
+	margin-top:30px;
+	font-size:20px;
+}
+
+.notification{
+	margin-left:21px;
+	margin-top:30px;
+	font-size:20px;
+}
+
+  .right-side .image img{
+	margin-left:30px;
+	margin-top:6px;
+	border-radius:50%;
+}
+
+.nav-search-bar-container{
+	display: flex;
+
+	
+	margin-bottom: 0.9rem;
+	margin-top:30px;
+
+
+}
+.nav-search-bar{
+	background:#12193e;
+	border-radius:13px;
+	display: flex;
+	
+	height:2vh;
+	width: 100%;
+	padding: 10px;
+	margin-top:0px;
+}
+.search-txt{
+	color:#12193e;
+	position:relative;
+	margin-left:50px;
+
+}
+.search-btn {
+	position:relative;
+	font-size: 15px;
+	color:white;
+	text-decoration: none;
+	float: left;
+	border-radius: 50%;
+	margin-top:-3px;
+}
+ 
+.search-mic {
+	font-size: 15px;
+	color:white;
+	text-decoration: none;
+	float: right;
+	border-radius: 50%;
+	position:relative;
+	margin-left:30px;
+	margin-top:-5px;
+
+	
+}
+.search-txt{
+	border:none;
+	background-color: #4CAF50;
+	outline:none;
+	float:center;
+	padding:0;
+	color:white;
+	font-size: 16px;
+	line-height: 100px;
+}
+
+.nav-search-bar input{
+   background: transparent;
+   color: #d9dcdd;
+   border: 0px solid transparent;
+
+   margin-left:-0.9rem;
+}
+input:focus{
+    outline: none;
+}
+
+.notification  i{
+	transition: transform .2s;
+}
+
+
+
+.notification  i:hover{
+	 transform: scale(1.3); 
+
+}
+
+
+.image img{
+	transition: transform .2s;
+}
+
+.image img:hover{
+	box-shadow: 0px 8px 35px 5px black;
+	transform: scale(1.1); 
+
+
+}
+
+.dropdown{
+	display:none;
+}
+
+/*SINGER INTRODUCTION AND DESCRIPTION */
+
+
+.singer-writing{
+	margin:15px;
+	color:white;
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	color:white;
+	width:65%;
+
+}
+
+ .singer-para{
+	font-size:15px;
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	color:white;
+	
+
+}
+
+.singer-box1  input{
+	width:150px;
+	height:40px;
+	color:white;
+	background-color:#050523;
+	font-size:15px;
+
+
+}
+
+
+/*ASIDE SECTION */
+
+
+aside{
+	width:21%;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 25%;
+    margin-top:8%;
+
+}
+
+
+/*SONG LOGS SECTION */
+
+.song-logs{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	width:100%;
+	transition: transform .2s;
+}
+
+.song-logs:hover{
+	transform: scale(0.9);
+	box-shadow: 0px 8px 35px 5px white;
+	
+
+}
+
+
+.singer-box1{
+	box-shadow: 0px 8px 35px 5px black;
+    background-color: #77889954;
+    
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	height:;
+    
+
+}
+
+.singer-image img{
+	box-shadow: 0px 8px 35px 5px black;
+}
+
+
+
+.side-block img{
+	margin:9px;
+
+
+
+}
+
+.love-sign i{
+	margin-top:-10px;
+	margin-left:90%;
+	color:white;
+}
+
+.name-side{
+	
+
+	color:white;
+}
+
+
+
+
+.tracks{
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	color:white;
+
+}
+
+.imp{
+	display:inline-block
+}
+
+
+
+
+.side-block{
+	display:flex;
+	margin-top:15px;
+	height:100px
+	width:45px;	
+	box-shadow: 0px 8px 35px 5px black;
+    background: rgba(0,0,0, .3);
+     align-content:center;
+
+}
+
+
+
+.side-block .singer-img{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+    margin:12px;
+
+
+}
+
+.love-sign i{
+	margin-top:40px;
+	margin-left:600px;
+	color:white;
+}
+.plus-sign i{
+	margin-top:38px;
+	margin-left:12px;
+	color:white;
+}
+
+
+.name-side{
+	color:white;
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	color:white;
+}
+
+ 
+/*ASIDE SECTION BOTH THE PARTS */
+.side-block1{
+	height:100px;
+	width:300px;
+	
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:13px;
+	box-shadow: 0px 8px 35px 5px black;
+
+}
+
+
+.side-block1:hover{
+	
+	background-color:grey;
+}
+
+.side-block1 img{
+	margin:12px;
+
+}
+
+.side-block1 span i{
+	margin-top:-55px;
+	margin-left:250px;
+	color:white;
+	display:flex;
+}
+
+.name-side1{
+	margin-top:-30%;
+	margin-left:30%;
+	color:white;
+}
+
+
+.line{
+
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	
+	
+
+}
+
+.second-page-aside1 {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	color:white;
+	font-size:20px;
+	
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	color:white;
+   
+	height:30px;
+	width:300px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:13px;
+
+}
+
+.upper-part1{
+	margin-top:4%;
+
+}
+
+.second-page-aside1 p{
+	margin-top:3px;
+
+}
+.second-page-aside1 .view{
+	margin-left:150px;
+	font-size:15px;
+	margin-top:3px;
+
+
+}
+.second-page-aside1 .artist1{
+	margin-left:4px;
+	font-size:20px;
+}
+
+
+.side-block1:hover{
+	background-color:grey;
+}
+
+.block1
+{
+	height:100px;
+	width:300px;
+	
+	margin:14px;
+	box-shadow: 0px 8px 35px 5px black;
+    
+	
+
+}
+
+.block1:hover{
+	background-color:grey;
+}
+
+.block1 img{
+	margin:15px;
+
+}
+
+.block1 img:hover{
+	background-image:<i class="fas fa-play"></i>;
+}
+
+.upper-part1  .block1 .name{
+	margin-left:100px;
+	margin-top:-100px;
+	color:white;
+	font-size:15px;
+
+	font-family: 'Rouge Script', cursive;  font-weight: normal; 	
+	color:white;
+
+	
+}
+
+.duration{
+	position:absolute;
+	margin:-100px 0px 0px 180px;
+	
+	color:white;
+	font-size:20px;
+	list-style:none;
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+
+}
+ 
+
+
+.time{
+	margin: -40px 0px 0px 80px;
+	font-size:15px;
+}
+
+.sub-menu-1
+{
+	display: none;
+	width:1000%;
+	height:450%;
+	
+}
+
+.duration ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background:#03150d94;
+	opacity: 0.7;
+    margin-left: -20px;
+	margin-top: 0;
+}
+
+.duration ul li:hover .sub-menu-1 ul {
+      display: block;
+     margin: 2px;
+     padding:5px;
+   }
+
+
+.duration ul li:hover .sub-menu-1 ul li{
+	display: block;
+	padding: 8px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	text-align: left;
+	border-radius: 0;
+
+}
+
+.duration ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.duration ul li a{
+	text-decoration:none;
+	list-style:none;
+	color:white;
+
+}
+
+.duration ul li a i{
+	text-decoration:none;
+	list-style:none;
+	color:white;
+	font-size:25px;
+
+
+}
+
+.duration ul li{
+	text-decoration:none;
+	list-style:none;
+	color:white;
+	
+
+}
+
+
+/*FOOTER SECTION AND MUSIC PLAYER TOOLS */
+
+
+
+#ta-player
+{
+	width: 100%;
+	height: 60px;
+	background-color: #010913;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+   box-shadow: 0px 7px 60px 4px #1e9c97fa;
+   position: fixed;
+   z-index: 4;
+}
+
+.ta-player-container
+{
+	width: 100%;
+	height: 100%;
+	color: red;
+	display: flex;
+}
+
+section
+{
+	flex:1;
+}
+
+.ta-player-info
+{
+	display: flex;
+	align-items: center;
+}
+
+.ta-artwork
+{
+	background:radial-gradient(transparent,#ffffff26,#1d3c1f9c), url(https://aniportalimages.s3.amazonaws.com/media/details/Salman_khan_Z3qIBVn.jpg);
+	width: 80px;
+	height: 62px;
+	background-size: cover;
+	background-position: center;
+	display: block;
+	position: relative;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+.title
+{
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.title:hover
+{
+	color:yellow;
+	transition: .2s;
+}
+
+.username
+{
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffffb0;
+	text-decoration: none;
+}
+
+.username:hover
+{
+	color: orange;
+	transition: .2s;
+}
+
+.ta-player-progress
+{
+	flex: 2;
+	display: flex;
+	align-items: center;
+}
+
+.ta-player-progress-wrapper
+{
+  width: 100%;
+   position: relative;
+}
+
+.ta-player-progress-wrapper input
+{
+	width:100%;
+}
+
+
+.ta-player-progress span
+{
+	color: #ffff00c2;
+	font-weight: 500;
+	font-size: 16px;
+	min-width: 50px;
+	text-align: center;
+}
+
+
+.ta-player-controls
+{
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.ta-player-controls button
+{
+	border: none;
+	background-color: transparent;
+}
+
+
+.ta-player-controls button i
+{
+	font-size: 16px;
+	margin: 0 8px;
+	color: #ffffffbd;
+}
+
+
+/*MAKING THE WEBSITE RESPONSIVE*/
+
+
+/*MEDIA QUERIES FOR DIFFERENT DEVICES*/
+
+
+
+
+@media only screen and (max-width:1125px){
+
+	aside{
+		display:none;
+	}
+
+	main{
+		width:100vw;
+	}
+
+	.side-block{
+		width:100%;
+	}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:980px){
+
+	.line{
+		width:85vw;
+		align-content: center  !important;
+
+	}
+
+	.side-block{
+		width:100%;
+	}
+
+	.plus-sign{
+		display:none;
+
+	}
+
+	.love-sign{
+		margin-left:-4%;
+	}
+}
+
+
+@media only screen and (max-width:945px){
+
+	.singer-box1{
+		width:85vw;
+		margin-right:20vw;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width:942px){
+
+	.favourites{
+		display:none;
+	}
+
+	.notification{
+		display:none;
+
+	}
+
+	.box-white {
+    width: 37px;
+    border: 2px solid white;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+
+
+
+	.dropbtn {
+		background-color:#03254c;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+		margin-top:-25%;
+	  }
+	  
+	  .dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		right: 0;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	  }
+	  
+	  .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  #ninja-name{
+		  font-weight:bolder;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: skyblue;}
+	  .dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
+
+
+@media only screen and (max-width:835px){
+
+	.image img{
+		display:none;
+	}
+
+	
+
+
+	
+}
+
+
+
+
+@media only screen and (max-width:765px){
+
+	
+
+ .ninjas{
+ 	display:none;
+ }
+
+ .dropbtn{
+
+ margin-top:0%;
+}
+
+
+}
+
+
+@media only screen and (max-width:723px){
+
+	.singer-box1{
+		width:80vw;
+	}
+
+	
+}
+
+
+@media only screen and (max-width:695px){
+
+	.dropbtn{
+		margin-top:-5%;
+	}
+}
+
+
+
+@media only screen and (max-width:662px){
+
+	.line{
+		width:85vw;
+		align-content: center  !important;
+
+	}
+
+	.side-block{
+		width:100%;
+	}
+
+	.love-sign{
+		display:none;
+	}
+
+}
+
+@media only screen and (max-width:643px){
+
+
+
+	.fa-heart{
+		display:none;
+	}
+	.fa-random{
+		display:none;
+	}
+	.ta-player-controls button{
+		display:none;
+	} 
+
+	.ta-player-progress-wrapper input {
+    width: 200%;
+}
+
+}
+
+@media only screen and (max-width:657px){
+
+	.singer-box1{
+		width:80vw;
+	}
+
+}
+
+
+
+@media only screen and (max-width:588px){
+
+	.header{
+		display:block;
+
+	}
+
+	.dropbtn{
+		margin-top:0%;
+		margin-left:-70%;
+	}
+
+	.left-side{
+		
+    display: flex;
+    /*justify-content: space-evenly;*/
+    width: 100vw  !important;
+		
+		
+	}
+
+	.right-side{
+		margin-left:9%;
+	}
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:571px){
+	.singer-box1{
+		width:85vw;
+		margin-right:10%;
+
+	}
+
+	.line{
+		width:80vw;
+		align-content: center  !important;
+
+	}
+
+	.side-block{
+		width:100%;
+	}
+}
+
+                                            /*END OF CSS FILE*/
